@@ -3,7 +3,7 @@
 import React from "react";
 import "./styles/App.css"; // Import the new CSS file
 import RecurringDatePicker from "./components/RecurringDatePicker";
-import { CalendarClock, BarChart3, Wand2 } from "./components/Icons";
+import { CalendarClock, BarChart3, Wand2 } from "./components/icons";
 
 export default function App() {
     return (
