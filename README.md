@@ -39,29 +39,8 @@ A modern, intuitive, and highly customizable recurring date picker component bui
 
 The project is organized into logical directories to keep the codebase clean and maintainable.
 
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/f1e05085-7ae3-40b9-ae3d-335a46ca73b4" />
 
-/src
-|-- /components          # Reusable React components
-|   |-- DateRangePicker.jsx
-|   |-- Icons.jsx
-|   |-- MiniCalendarPreview.jsx
-|   |-- RecurrenceOptions.jsx
-|   |-- RecurringDatePicker.jsx
-|
-|-- /styles              # Custom CSS files for styling
-|   |-- App.css
-|   |-- DateRangePicker.css
-|   |-- MiniCalendarPreview.css
-|   |-- RecurrenceOptions.css
-|   |-- RecurringDatePicker.css
-|   |-- variables.css
-|
-|-- /utils               # Utility functions (e.g., date logic)
-|   |-- recurrenceLogic.js
-|
-|-- App.jsx              # Main application component
-|-- index.css            # Global styles and Tailwind imports
-|-- main.jsx             # Application entry point
 
 
 ---
