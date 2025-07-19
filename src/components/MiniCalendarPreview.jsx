@@ -1,6 +1,6 @@
 /** @format */
 import React, { useState, useEffect } from "react";
-import { CalendarDays, List, AlertCircle } from "./Icons";
+import { CalendarDays, List, AlertCircle } from "./icons";
 import "../styles/MiniCalendarPreview.css"; // Import new CSS
 
 const MiniCalendarPreview = ({ dates, isLoading }) => {

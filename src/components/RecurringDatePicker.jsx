@@ -5,7 +5,7 @@ import DateRangePicker from "./DateRangePicker";
 import RecurrenceOptions from "./RecurrenceOptions";
 import MiniCalendarPreview from "./MiniCalendarPreview";
 import { generateRecurringDates } from "../utils/recurrenceLogic";
-import { Check, Calendar, Repeat, Eye, ArrowRight, ArrowLeft } from './Icons';
+import { Check, Calendar, Repeat, Eye, ArrowRight, ArrowLeft } from './icons';
 import '../styles/RecurringDatePicker.css'; // Import new CSS
 
 const RecurringDatePicker = () => {

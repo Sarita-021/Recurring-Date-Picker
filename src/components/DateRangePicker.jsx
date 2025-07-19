@@ -1,6 +1,6 @@
 /** @format */
 import React from "react";
-import { Calendar } from './Icons';
+import { Calendar } from './icons';
 import '../styles/DateRangePicker.css'; // Import new CSS
 
 const DateRangePicker = ({ dateRange, setDateRange }) => {
