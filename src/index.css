@@ -19,6 +19,11 @@ div {
   margin-bottom: 10px;
 }
 
+section {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 /* Base styles for buttons and inputs using CSS variables */
 
 .container {
