@@ -1,0 +1,140 @@
+/*
+  Styles for the main stepper component in RecurringDatePicker.
+*/
+
+.recurring-date-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-card);
+  border-radius: var(--rounded-lg);
+  box-shadow: var(--shadow-lg);
+  padding: var(--spacing-6);
+}
+
+.stepper-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: var(--spacing-8);
+}
+
+.stepper-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 6rem;
+}
+
+.stepper-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 3rem;
+	height: 3rem;
+	border-radius: var(--rounded-full);
+	border: 2px solid;
+	transition: var(--transition-normal);
+}
+
+.stepper-item.active .stepper-icon {
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
+	color: white;
+}
+
+.stepper-item.inactive .stepper-icon {
+	background-color: var(--bg-card);
+	border-color: var(--border-color);
+	color: var(--text-light);
+}
+
+.stepper-label {
+	margin-top: var(--spacing-2);
+	font-size: 0.875rem;
+	font-weight: 500;
+	transition: var(--transition-normal);
+}
+
+.stepper-item.active .stepper-label {
+	color: var(--primary-color);
+}
+
+.stepper-item.inactive .stepper-label {
+	color: var(--text-secondary);
+}
+
+.stepper-line {
+	flex: 1;
+	height: 2px;
+	background-color: var(--border-color);
+	transition: var(--transition-normal);
+}
+
+.stepper-line.active {
+	background-color: var(--primary-color);
+}
+
+
+
+.navigation-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-top: 1px solid #e5e7eb; 
+}
+
+
+.nav-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem; 
+  border-radius: 0.5rem; 
+  font-size: 0.875rem; 
+  margin: auto 1rem;
+  font-weight: 500; 
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.nav-button--secondary {
+  background-color: rgb(228, 228, 228);
+  color: #282a2e; 
+}
+
+.nav-button--secondary:hover {
+  background-color: #f3f4f6;
+}
+
+
+.nav-button--primary {
+  background-color: #3b82f6; /* bg-blue-600 */
+  color: white;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); /* shadow-sm */
+}
+
+.nav-button--primary:hover {
+  background-color: #2563eb; /* hover:bg-blue-700 */
+}
+
+.nav-button--success {
+  background-color: #16a34a; 
+  color: white;
+  font-weight: 600; 
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.nav-button--success:hover {
+  background-color: #15803d; 
+}
+
+
+.nav-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,57 @@
+:root {
+	/* Colors */
+	--primary-color: #3b82f6;
+	/* blue-500 */
+	--primary-color-dark: #2563eb;
+	/* blue-600 */
+	--primary-color-light: #eff6ff;
+	/* blue-50 */
+	--secondary-color: #10b981;
+	/* green-500 */
+	--text-primary: #1f2937;
+	/* gray-800 */
+	--text-secondary: #4b5563;
+	/* gray-600 */
+	--text-light: #6b7280;
+	/* gray-500 */
+	--bg-main: #f9fafb;
+	/* gray-50 */
+	--bg-card: #ffffff;
+	--bg-subtle: #f3f4f6;
+	/* gray-100 */
+	--border-color: #e5e7eb;
+	/* gray-200 */
+	--border-color-focus: var(--primary-color);
+	--danger-color: #ef4444;
+	/* red-500 */
+	--danger-color-light: #fee2e2;
+	/* red-100 */
+
+	/* Typography */
+	--font-sans: 'Inter', sans-serif;
+
+	/* Spacing */
+	--spacing-1: 0.25rem;
+	--spacing-2: 0.5rem;
+	--spacing-4: 1rem;
+	--spacing-6: 1.5rem;
+	--spacing-8: 2rem;
+
+	/* Border Radius */
+	--rounded-md: 0.375rem;
+	--rounded-lg: 0.5rem;
+	--rounded-xl: 0.75rem;
+	--rounded-2xl: 1rem;
+	--rounded-full: 9999px;
+
+	/* Shadows */
+	--shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+	--shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+	--shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+	--shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+	--shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+
+	/* Transitions */
+	--transition-fast: all 0.2s ease-in-out;
+	--transition-normal: all 0.3s ease-in-out;
+}

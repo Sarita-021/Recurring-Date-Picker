@@ -1,0 +1,38 @@
+/* Styling the feature cards from App.jsx */
+.feature-card {
+	background-color: var(--bg-card);
+	border-radius: var(--rounded-2xl);
+	padding: var(--spacing-8);
+	box-shadow: var(--shadow-lg);
+	border: 1px solid var(--border-color);
+	transition: var(--transition-normal);
+}
+
+.feature-card:hover {
+	transform: translateY(-5px);
+	box-shadow: var(--shadow-xl);
+	border-color: var(--primary-color-light);
+}
+
+.feature-card .icon-wrapper {
+	margin-bottom: var(--spacing-4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 4rem;
+	height: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: var(--rounded-full);
+}
+
+.feature-card h3 {
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: var(--text-primary);
+	margin-bottom: var(--spacing-2);
+}
+
+.feature-card p {
+	color: var(--text-secondary);
+}

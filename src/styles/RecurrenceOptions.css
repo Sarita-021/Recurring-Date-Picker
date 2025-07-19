@@ -1,0 +1,101 @@
+
+.recurrence-options {
+	display: flex; 
+	flex-direction: column; 
+	gap: 1.5rem;
+}
+
+.recurrence-options .option-card {
+	background-color: var(--bg-card);
+	padding: var(--spacing-6);
+	border-radius: var(--rounded-xl);
+	border: 2px solid var(--border-color);
+	margin-bottom: 1.5rem;
+}
+
+.recurrence-options .option-card:last-child {
+	margin-bottom: 0;
+}
+
+.recurrence-options .form-label {
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 500;
+	color: var(--text-primary);
+	margin-bottom: 0.25rem;
+}
+
+.recurrence-options .form-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+	.recurrence-options .form-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.recurrence-options .form-select,
+.recurrence-options .form-input {
+	width: 100%;
+	border-radius: var(--rounded-lg);
+	border: 2px solid var(--border-color);
+	box-shadow: var(--shadow-sm);
+	padding: 0.5rem 0.75rem;
+	transition: var(--transition-fast);
+}
+
+.recurrence-options .form-select:focus,
+.recurrence-options .form-input:focus {
+	outline: none;
+	border-color: var(--border-color-focus);
+	box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.recurrence-options .input-group {
+	display: flex;
+	align-items: center;
+}
+
+.recurrence-options .input-group .form-input {
+	width: 5rem;
+}
+
+.recurrence-options .input-group span {
+	margin-left: 0.75rem;
+	color: var(--text-secondary);
+}
+
+.recurrence-options .weekly-days-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.recurrence-options .day-toggle-button {
+	width: 4rem;
+	height: 2.5rem;
+	border-radius: var(--rounded-lg);
+	border: 1px solid var(--border-color);
+	font-weight: 600;
+	transition: var(--transition-fast);
+}
+
+.recurrence-options .day-toggle-button.selected {
+	background-color: var(--primary-color);
+	color: white;
+	border-color: var(--primary-color);
+	box-shadow: var(--shadow-md);
+}
+
+.recurrence-options .day-toggle-button.unselected {
+	background-color: var(--bg-card);
+	color: var(--text-primary);
+}
+
+.recurrence-options .day-toggle-button.unselected:hover {
+	background-color: var(--bg-subtle);
+	border-color: #9ca3af;
+}
